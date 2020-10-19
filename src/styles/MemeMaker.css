@@ -1,0 +1,17 @@
+.MemeMaker .meme img {
+    width: 500px;
+}
+
+.MemeMaker .meme .top {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.MemeMaker .meme .bottom {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
