@@ -61,8 +61,6 @@ class MemeMaker extends Component {
         const randNum = Math.floor(Math.random() * this.state.allMemeImgs.length)
         const randMemeImg = this.state.allMemeImgs[randNum].url
 
-        console.log(randMemeImg)
-
         this.setState({ randomImg: randMemeImg })
     }
 }
